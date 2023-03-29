@@ -1,0 +1,102 @@
+:root {
+    --mainColor: #9D7E6C;
+    --textColor: #A19B97;
+    --bgColor: #F5F4F0;
+    --white: #fff;
+    --black: #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@400;500&family=Poppins:wght@400;500&display=swap');
+
+body {
+    background-color: var(--bgColor); 
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: var(--textColor);
+}
+
+h1 {
+    font-weight: 500;
+    letter-spacing: -1px;
+    color: var(--mainColor);
+}
+
+footer {
+    font-size: 14px;
+    padding: 32px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+
+ul li {
+    margin: 16px 0px;
+    display: block;
+}
+
+.btn-vnla {
+    background-color: var(--mainColor);
+    color: white;
+    /* border: solid 1px var(--mainColor);
+    color: var(--mainColor); */
+    text-decoration: none;
+    width: 100%;
+    padding: 24px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 8px 0px;
+    transition: all 0.5s ease-in-out; 
+}
+
+.disable {
+    opacity: 0.3;
+}
+
+.disable:hover {
+    transform: initial !important;
+    filter: initial !important;
+}
+
+a img {
+    margin-right: 8px;
+}
+
+.btn-vnla:hover {
+    filter: brightness(1.1);
+    transform: scale(1.05);
+}
+
+.btn-whats {
+    /* border: solid 1px #709D6C;
+    color: #709D6C; */
+    background-color: #709D6C;
+}
+
+header {
+    padding: 32px;
+}
+
+header img {
+    min-width: 200px;
+}
+
+header {
+    height: 150px;
+}
+
+.logo {
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.besley {
+    font-family: 'Besley', serif;
+    font-style: italic ;
+}
