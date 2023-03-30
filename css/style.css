@@ -197,7 +197,7 @@ a {
     text-transform: uppercase;
     margin-left: 8px;
     position: absolute;
-    left: -16px;
+    right: 8px;
     background: #0000005e !important;
     padding: 8px 11px;
     backdrop-filter: blur(2px);
