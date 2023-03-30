@@ -19,10 +19,6 @@ body {
     position: relative;
 }
 
-.background img {
-    max-width: 150%;
-}
-
 .background .background-img {
     position: absolute;
     top: 0;
@@ -32,7 +28,6 @@ body {
     background-size: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
-    background-position-y: center;
   }
   
   .background .background-img.active {
@@ -195,4 +190,29 @@ a:hover {
 
 a {
     transition: all 0.5s ease-in-out;
+}
+
+.btn-vnle .badge {
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left: 8px;
+    position: absolute;
+    left: -16px;
+    background: #0000005e !important;
+    padding: 8px 11px;
+    backdrop-filter: blur(2px);
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: fit-content;
+}
+
+.disable {
+    background-color: #c5aa966e !important;
+}
+
+.disable:hover {
+    filter: unset !important;
+    cursor: unset;
 }
