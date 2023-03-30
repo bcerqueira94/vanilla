@@ -13,7 +13,7 @@ $(document).ready(function() {
     var index = 0;
   
     // Define o tempo de transição e o intervalo de tempo para trocar as imagens
-    var time = 5000; // 5 segundos
+    var time = 10000; // 5 segundos
   
     // Ativa a primeira imagem
     $(images[index]).addClass("active");
