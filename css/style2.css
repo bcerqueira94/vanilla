@@ -1,10 +1,3 @@
-html,
-body {
-    margin: 0;
-    height: 100%;
-    overflow: hidden
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Besley:wght@400;500&family=Poppins:wght@400;500&display=swap');
 
 body {
@@ -12,8 +5,9 @@ body {
     font-family: 'Poppins', sans-serif !important;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    overflow-x: hidden !important;
     font-weight: 400;
+    background-image: url(../img/bg-content.png);
+    background-size: cover;
 }
 
 .background {
@@ -46,11 +40,8 @@ body {
 
 .boas-vindas {
     padding-top: 100px;
-}
-
-
-body:has(.requires-no-scroll) {
-    overflow: hidden;
+    min-height: 160px;
+    height: auto;
 }
 
 .content {
@@ -78,6 +69,8 @@ body:has(.requires-no-scroll) {
 
 .sec-botoes {
     position: relative;
+    min-height: 313px;
+    height: auto;
 }
 
 
@@ -139,6 +132,7 @@ p {
 
 .atendimento {
     min-height: 100px;
+    height: auto;
 }
 
 .besley {
