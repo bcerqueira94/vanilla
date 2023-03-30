@@ -216,3 +216,15 @@ a {
     filter: unset !important;
     cursor: unset;
 }
+
+#pre-loader {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vnle-loader {
+    width: 400px;
+    max-width: 80%;
+}
