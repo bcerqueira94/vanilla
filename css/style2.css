@@ -7,10 +7,17 @@ body {
 
 body {
     color: black;
-    background-image: url(../img/bg-mobile.png);
+    
     background-repeat: no-repeat;
     background-size: 100% auto;
     overflow-x: hidden !important;
+}
+
+.background {
+    background-image: url(../img/bg-mobile.png);
+    background-size: cover;
+    width: 100%;
+    height: 180px;
 }
 
 
@@ -18,38 +25,17 @@ body:has(.requires-no-scroll) {
     overflow: hidden;
 }
 
-/* #sec-logo img {
-    width: 180px;
-    max-width: 100%;
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
-/* .content {
-    min-height: calc(100vh - 177px);
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(27px);
-} */
-/* 
-#sec-logo {
-    min-height: 177px;
-    position: relative;
-} */
-
 .content {
     width: 100vw;
     text-align: center;
-    max-height: 700px;
     height: 100%;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%);
     backdrop-filter: blur(67px);
     -webkit-backdrop-filter: blur(67px);
     position: absolute;
     bottom: 0;
+    background-image: url(../img/bg-content.png);
+    background-size: cover;
 }
 
 .logo-photo {
