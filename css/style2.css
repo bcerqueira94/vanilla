@@ -5,12 +5,15 @@ body {
     overflow: hidden
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@400;500&family=Poppins:wght@400;500&display=swap');
+
 body {
     color: black;
-    
+    font-family: 'Poppins', sans-serif !important;
     background-repeat: no-repeat;
     background-size: 100% auto;
     overflow-x: hidden !important;
+    font-weight: 400;
 }
 
 .background {
@@ -18,6 +21,31 @@ body {
     background-size: cover;
     width: 100%;
     height: 180px;
+    position: relative;
+}
+
+.logo-photo {
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    float: left;
+    position: absolute;
+    bottom: -70px;
+}
+
+.boas-vindas {
+    padding-top: 100px;
 }
 
 
@@ -28,7 +56,7 @@ body:has(.requires-no-scroll) {
 .content {
     width: 100vw;
     text-align: center;
-    height: 100%;
+    min-height: 100%;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%);
     backdrop-filter: blur(67px);
     -webkit-backdrop-filter: blur(67px);
@@ -38,22 +66,6 @@ body:has(.requires-no-scroll) {
     background-size: cover;
 }
 
-.logo-photo {
-    background-color: white;
-    width: 140px;
-    height: 140px;
-    border-radius: 100%;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: -70px;
-}
 
 .logo-photo img {
     width: 110px;
@@ -68,24 +80,9 @@ body:has(.requires-no-scroll) {
     position: relative;
 }
 
-.sec-botoes a {
-    background-color: red;
-    width: 366px;
-    max-width: 100%;
-    margin: 8px 0px;
-    padding: 16px;
-    color: white;
-    background-color: #C5AA96;
-}
 
-.btn-whts {
-    background-color: #969F90 !important;
-}
 
-.btn img {
-    width: 22px;
-    margin-right: 8px;
-}
+
 
 .group-btn {
     position: absolute;
@@ -103,6 +100,12 @@ body:has(.requires-no-scroll) {
 .footer {
     color: #BFB5A7;
     padding: 24px 0px;
+    height: 140px;
+}
+
+.footer p{
+    font-size: 14px;
+    color: #BFB5A7;
 }
 
 ul {
@@ -120,4 +123,60 @@ p {
     margin: 0;
     padding: 0;
     font-size: 16px;
+}
+
+h1 {
+    color: #8D7C6F;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    color: #A89586;
+}
+
+.atendimento {
+    min-height: 100px;
+}
+
+.besley {
+    font-family: 'Besley', serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.btn-vnle {
+    width: 366px;
+    max-width: 100%;
+    margin: 8px 0px;
+    padding: 16px;
+    color: white;
+    background-color: #C5AA96;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.btn-whts {
+    background-color: #969F90 !important;
+}
+
+.btn-vnle img {
+    width: 22px;
+    margin-right: 8px;
+}
+
+.btn-vnle:hover {
+    filter: brightness(1.1);
+
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+a {
+    transition: all 0.5s ease-in-out;
 }
