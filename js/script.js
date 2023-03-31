@@ -53,19 +53,19 @@ var animation = bodymovin.loadAnimation({
 //Delay Entrada Animação
 setTimeout(function () {
   animation.play();
-}, 600);
+}, 100);
 
 //Delay Encerramento Animação
 setTimeout(function () {
-  $('#vnle-loader').fadeOut(1000);
-}, 3500);
+  $('#vnle-loader').fadeOut(500);
+}, 3000);
 
 //Retirar-Pre-loader 
 setTimeout(function() {
   $("#pre-loader").hide();
-}, 3900);
+}, 3500);
 
 //Exibir main-content
 setTimeout(function() {
-  $('#main-content').fadeIn(500);
-}, 4500);
+  $('#main-content').fadeIn(1000);
+}, 3500);
